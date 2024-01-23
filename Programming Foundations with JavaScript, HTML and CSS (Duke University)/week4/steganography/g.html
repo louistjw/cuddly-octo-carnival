@@ -1,0 +1,30 @@
+<script type="text/javascript" src="SimpleImage.js"></script> 
+<script type="text/javascript" src="g.js"></script> 
+<link rel="stylesheet" type="text/css" href="g.css">
+
+<h1>
+Steganography
+</h1>
+
+<p>
+<canvas id="hiddencan">
+</canvas>
+<canvas id="hidercan">
+</canvas>
+<canvas id="finalcan">
+</canvas>
+<canvas id="decodecan">
+</canvas>
+</p>
+
+<p>
+Hidden File: <input type="file" id="hiddenf" multiple= "False" accept="image/*" value="to hide" onchange="loadHiddenImage()">
+</p>
+<p>
+Hider File: <input type="file" id="hiderf" multiple= "False" accept="image/*" value="to hide" onchange="loadHiderImage()">
+</p>
+<p>
+<input type="button" value="Clear Selection" onclick="clearCanvas()">
+<input type="button" value="Hide image" onclick="stego()">
+<input type="button" value="Decode image" onclick="decode()">
+</p>

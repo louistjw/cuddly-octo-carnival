@@ -1,0 +1,33 @@
+h1 {
+  font-family: arial;
+  color: dimgray;
+}
+
+/* Setup of each div */
+div{
+  width: 140pt;
+  padding: 5pt;
+  margin: 10pt;
+  border: 1px solid lightgray;
+  font-size: 16pt;
+}
+
+/* Original division colors */
+/*
+#div1 {
+  background-color: orange;
+}
+#div2 {
+  background-color: blue;
+}
+*/
+
+.orangeback {
+  background-color: orange;
+}
+.blueback {
+  background-color: blue;
+}
+.pinkback {
+  background-color: pink;
+}

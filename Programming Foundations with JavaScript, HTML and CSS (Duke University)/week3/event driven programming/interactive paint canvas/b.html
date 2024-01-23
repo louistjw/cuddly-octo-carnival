@@ -1,0 +1,18 @@
+<h1>
+    Paint your own picture!
+</h1>
+
+
+<p>
+    Set Width
+    <input type="text" onchange="setWidth(this.value)">
+    Set Height
+    <input type="text" onchange="setHeight(this.value)">
+</p>
+    <canvas id="canvas1" onmousedown="startPaint()" onmousemove="doPaint(event.offsetX, event.offsetY)" onmouseup="endPaint()">
+
+    </canvas>
+
+
+    <script type="text/javascript" src="b.js"></script>
+    <link rel="stylesheet" type="text/css" href="b.css">

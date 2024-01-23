@@ -1,0 +1,19 @@
+h1 {
+    font-family: arial;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Setup of each div */
+  canvas{
+    width: 140pt;
+    padding: 5pt;
+    margin: 10pt;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 16pt;
+  }
+  
+
+  
+  .greyback {
+    background-color: grey;
+  }

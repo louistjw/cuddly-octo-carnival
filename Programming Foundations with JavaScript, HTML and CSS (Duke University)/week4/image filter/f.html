@@ -1,0 +1,30 @@
+<script type="text/javascript" src="SimpleImage.js"></script> 
+<script type="text/javascript" src="f.js"></script> 
+<link rel="stylesheet" type="text/css" href="f.css">
+
+<h1>
+Filter Fun
+</h1>
+
+<canvas id="can">
+</canvas>
+
+</p>
+<h2>
+Load Image
+</h2>
+<input type="file" multiple="False" accept="image/*" id="imgfile"  onchange="loadImage()">
+</p>
+
+<p>
+<h2>
+Choose Filter
+</h2>
+<input type="button" value="Grayscale" onclick="doGrayscale()">
+<input type="button" value="Red" onclick="doRedscale()">
+</p>
+
+<p>
+<input type="button" value="Reset Image" onclick="resetImage()">
+</p>
+    

@@ -1,0 +1,10 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;}
+
+canvas {
+    height: 200px;
+    border: 1px solid lightgray;}
+    
+input {
+    font-size: 14pt;}

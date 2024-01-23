@@ -1,0 +1,32 @@
+<script type="text/javascript" src="SimpleImage.js"></script> 
+<script type="text/javascript" src="e.js"></script> 
+<link rel="stylesheet" type="text/css" href="e.css">
+
+<h1>
+Green Screen Web Page
+</h1>
+
+<canvas id="fgcan">
+</canvas>
+<canvas id="bgcan">
+</canvas>
+
+</p>
+Foreground:
+<input type="file" multiple="False" accept="image/*" id="fgfile"  onchange="loadForegroundImage()">
+</p>
+
+<p>
+Background:
+<input type="file" multiple="False" accept="image/*" id="bgfile"  onchange="loadBackgroundImage()">
+</p>
+
+<p>
+Enter green threshold value:
+<input type="number" id="gt" onclick="greenThresh()">
+</p>
+    
+<p>
+<input type="button" value="Create Composite" onclick="doGreenScreen()">
+<input type="button" value="Clear Canvases" onclick="clearCanvas()">
+</p>
